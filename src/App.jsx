@@ -82,16 +82,9 @@ export default function App() {
       <div className="max-w-6xl mx-auto">
         {/* Header dan Toggle Mode */}
         <header className="flex justify-between items-center mb-10">
-          <div className="flex items-center space-x-4">
-            <img
-              src="/src/assets/gif-oasis-logo.png" // Ganti dengan path (alamat) gambar logo yang sebenarnya
-              alt="Logo GIF Oasis"
-              className="h-20 w-20 md:h-14 md:w-14" // Atur ukuran logo
-            />
-            <h1 className="text-4xl font-extrabold text-accent-teal tracking-tighter">
-              GIF Oasis : Search App
-            </h1>
-          </div>
+          <h1 className="text-4xl font-extrabold text-accent-teal tracking-tighter">
+            GIF Oasis : Search App
+          </h1>
           <div className="flex items-center space-x-4">
             {/* Tombol Dark/Light Mode */}
             <button
